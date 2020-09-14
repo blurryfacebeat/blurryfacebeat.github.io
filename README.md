@@ -1,7 +1,7 @@
 # blurryfacebeat.github.io
 <b>---WebSites---</b>
 <br>
-[Barbershop](https://blurryfacebeat.github.io/)
+[Barbershop](https://blurryfacebeat.github.io/barbershop)
 <br>
 [Limpon](https://blurryfacebeat.github.io/limpon)
 <br>
