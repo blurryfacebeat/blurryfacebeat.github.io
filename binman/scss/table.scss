@@ -1,0 +1,252 @@
+table {
+    width: 100%;
+    
+    table-layout: fixed;
+
+    text-align: left;
+    color: $dark-blue;
+
+    background-color: #fff;
+    border-collapse: collapse;
+    border: none;
+
+    thead {
+        font-size: 11px;
+        line-height: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        th:nth-child(1) {
+            padding-left: 20px;
+        }
+    }
+
+    tbody {
+        td:nth-child(1) {
+            padding-left: 20px;
+        }
+
+        td:nth-last-child() {
+            padding-right: 20px;
+        }
+    }
+
+    tfoot {
+        margin: 0 auto;
+        
+        text-transform: uppercase;
+    }
+
+    td {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    th {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    tr {
+        border-bottom: 2px solid #F2F2F2;
+    }
+}
+
+.table__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.applicants__photo {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+}
+
+.table__info__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.applicants__name {
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+
+    color: $dark-blue;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+}
+
+.applicants__vacancy {
+    margin: 0;
+    padding: 0;
+    
+    color: $light-black;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+}
+
+.table__icon--phone {
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+
+    background-color: $dark-white;
+    background-image: url(../img/phone.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3px;
+}
+
+.table__phone__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.table__number--phone {
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+
+    color: $dark-blue;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+}
+
+.table__more--phone {
+    color: $light-black;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+    
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.table__icon--mail {
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+
+    background-color: $dark-white;
+    background-image: url(../img/mail.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3px;
+}
+
+.table__mail__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.table__address--mail {
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+
+    color: $dark-blue;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+}
+
+.table__more--mail {
+    color: $light-black;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.table__actions__wrapper {
+    display: flex;
+    align-items: center;
+
+    .table__actions__item {
+        width: 36px;
+        height: 36px;
+        margin-right: 5px;
+
+        border: 1px solid #DBE4E7;
+        border-radius: 3px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &--resume {
+            background-image: url(../img/resume.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        &--archive {
+            background-image: url(../img/archive.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        &--favorites {
+            background-image: url(../img/favorites.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.table__see-more {
+    padding: 0;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    margin: 0;
+    width: 100%;
+
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    text-align: center;
+    color: $dark-blue;
+    text-transform: uppercase;
+
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+// На будущее, добавить смену цветов у рейтинга
+// .awful-rating {
+
+// }
+
+// .bad-rating {
+
+// }
+
+// .satisfactorily-rating {
+
+// }
+
+// .good-rating {
+
+// }
+
+// .perfect-rating {
+
+// }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ClickClackOnBluck</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="app__header">
+            <h1 class="" id="time-header">Время игры: <span id="time">5.0</span></h1>
+            <h1 id="result-header" class="hide">Ваш результат: <span id="result"></span></h1>
+        </div>
+
+        <div class="app__content">
+            <button id="start" class="btn">Начать</button>
+
+            <div id="game" class="game"></div>
+        </div>
+
+        <div class="app__footer">
+            <div class="input">
+                <label for="game-time">Время игры, (сек)</label>
+                <input type="number" id="game-time" min="5" step="1" value="5">
+            </div>
+        </div>
+    </div>
+    <audio id="clickSound" src="./audio/click.mp3"></audio>
+</body>
+<script src="script.js"></script>
+</html>

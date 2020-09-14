@@ -1,0 +1,24 @@
+.rating__wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.rating__item {
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+
+    background-image: url(../img/star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &--active {
+        background-image: url(../img/star-active.svg);
+    }
+}

@@ -1,0 +1,339 @@
+.modal__overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $dark-grey;
+    opacity: .5;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    min-height: 91vh;
+    min-width: 650px;
+
+    background-color: #fff;
+}
+
+.modal__wrapper--btn {
+    position: relative;
+}
+
+.modal__close--btn {
+    position: absolute;
+    top: 12px;
+    left: -40px;
+
+    width: 30px;
+    height: 30px;
+
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.modal__close__wrapper {
+    position: relative;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        left: 14px;
+        top: 7px;
+
+        width: 2px;
+        height: 15px;
+
+        background-color: $dark-grey;
+        border-radius: 3px;
+        transform: rotate(-45deg);
+    }
+
+    &::after {
+        content: "";
+
+        position: absolute;
+        left: 14px;
+        top: 7px;
+
+        width: 2px;
+        height: 15px;
+
+        background-color: $dark-grey;
+        border-radius: 3px;
+        transform: rotate(45deg);
+    }
+}
+
+.modal__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    input {
+        padding: 12px;
+
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 400;
+        color: $dark-blue;
+
+        background-color: #F4F9FB;
+        border: 1px solid #DBE4E7;
+        border-radius: 3px;
+
+        &::placeholder {
+            font-size: 12px;
+            line-height: 12px;
+            font-weight: 400;
+            color: $light-black;
+        }
+    }
+
+    select {
+        padding: 12px;
+
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 400;
+        color: $dark-blue;
+
+        background-color: #F4F9FB;
+        border: 1px solid #DBE4E7;
+        border-radius: 3px;
+
+        option[disabled] {
+            color: $light-black;
+        }
+    }
+
+    .input__title {
+        margin-bottom: 8px;
+        margin-top: 20px;
+
+        font-size: 11px;
+        line-height: 12px;
+        font-weight: 700;
+        color: $dark-blue;
+        text-transform: uppercase;
+    }
+
+    .input__title__annotation {
+        margin-bottom: 8px;
+
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: 400;
+        color: $light-black;
+    }
+}
+
+.modal__title {
+    border-bottom: 2px solid #F2F2F2;
+
+    h3 {
+        padding: 20px 25px;
+        margin: 0;
+
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 700;
+        color: $dark-blue;
+        text-transform: uppercase;
+    }
+}
+
+.modal__info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+.modal__info__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    h3 {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 16px;
+
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 700;
+        color: $dark-blue;
+        text-transform: uppercase;
+    }
+}
+
+.modal__contacts {
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    border-bottom: 2px solid #F2F2F2;
+
+    .modal__contacts__wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+        padding-right: 25px;
+
+        h3 {
+            padding: 0;
+            margin: 0;
+            margin-bottom: 16px;
+
+            font-size: 12px;
+            line-height: 14px;
+            font-weight: 700;
+            color: $dark-blue;
+            text-transform: uppercase;
+        }
+
+        .add__more {
+            margin-top: 4px;
+
+            color: $light-black;
+            font-size: 10px;
+            line-height: 12px;
+            font-weight: 400;
+            text-decoration: underline;
+        
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.modal__resume {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-bottom: 2px solid #F2F2F2;
+
+    .modal__resume__wrapper {
+        padding-right: 25px;
+        padding-left: 25px;
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            padding: 0;
+            margin: 0;
+            margin-bottom: 16px;
+
+            font-size: 12px;
+            line-height: 14px;
+            font-weight: 700;
+            color: $dark-blue;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.modal__rating {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-bottom: 2px solid #F2F2F2;
+
+    h3 {
+        padding: 0;
+        padding-left: 25px;
+        margin: 0;
+        margin-bottom: 16px;
+
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 700;
+        color: $dark-blue;
+        text-transform: uppercase;
+    }
+
+    .modal__rating__wrapper {
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .modal__rating__items__wrapper {
+        margin-right: 120px;
+        
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.modal__action {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 20px 25px;
+
+    .modal__action__cancel {
+        padding: 0;
+        padding-top: 12px;
+        padding-bottom: 11px;
+        margin: 0;
+        margin-right: 10px;
+        width: 100%;
+
+        text-align: center;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        color: $dark-blue;
+        text-transform: uppercase;
+
+        background-color: #fff;
+        border: 1px solid #DBE4E7;
+        border-radius: 3px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: .7;
+        }
+
+        &:active {
+            opacity: .5;
+        }
+    }
+
+    .modal__action__submit {
+        padding: 0;
+        padding-top: 12px;
+        padding-bottom: 11px;
+        margin: 0;
+        width: 100%;
+
+        text-align: center;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        color: #fff;
+        text-transform: uppercase;
+
+        background-color: #386BF2;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: .7;
+        }
+
+        &:active {
+            opacity: .5;
+        }
+    }
+}
