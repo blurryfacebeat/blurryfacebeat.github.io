@@ -13,6 +13,8 @@
 <br>
 [Binman](https://blurryfacebeat.github.io/binman)
 <br>
+[AppSon](https://blurryfacebeat.github.io/smart-academy_first-task/)
+<br>
 [Сайт по доставке индивидуального питания](https://blurryfacebeat.github.io/Food)
 <br>
 <br>
