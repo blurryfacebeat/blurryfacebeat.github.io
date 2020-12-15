@@ -13,7 +13,7 @@
 <br>
 [Binman](https://blurryfacebeat.github.io/binman)
 <br>
-[JsonToForm](https://blurryfacebeat.github.io/json-to-form/) --> Динамический парсер JSON файлов, преобразующий их в форму на сайте
+[JsonToForm](https://blurryfacebeat.github.io/json-to-form/) --> Динамический парсер JSON файлов, преобразующий их в форму на сайте(Примеры json-файлов для загрузки / теста https://github.com/blurryfacebeat/json-to-form/tree/master/json)
 <br>
 [AppSon](https://blurryfacebeat.github.io/smart-academy_first-task/)
 <br>
