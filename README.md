@@ -19,6 +19,8 @@
 <br>
 [Сайт по доставке индивидуального питания](https://blurryfacebeat.github.io/Food)
 <br>
+[Блокнот с возможностью загрузить файл с текстом и сохранить файл с текстом](https://blurryfacebeat.github.io/ez-notepad/)
+<br>
 <br>
 <b>-Практика в "Паравеб", сайт "ТГУ"-</b>
 <br>
