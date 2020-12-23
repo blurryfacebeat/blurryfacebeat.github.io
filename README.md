@@ -29,6 +29,11 @@
 [Страница "Об университете"](https://blurryfacebeat.github.io/tsuparaweb/about_university)
 <br>
 <br>
+<b>---Живые проекты---</b>
+<br>
+[Онлайн-школа "Фонарик"](https://sa-anchousi-project.herokuapp.com/auth/login)
+<br>
+<br>
 <b>---Games---</b>
 <br>
 [ClickCluckOnBluck](https://blurryfacebeat.github.io/ClickCluckOnBluck) a game which u need to click on the squares a while to score points.
